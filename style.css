@@ -1,0 +1,16 @@
+#little,
+#big {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    margin: 10px;
+}
+#little{
+    background: url("little.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+#big {
+    background: url("big.png") no-repeat 0px 0px;
+    display:none;
+}
